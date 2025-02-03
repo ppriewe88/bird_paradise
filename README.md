@@ -16,7 +16,7 @@ In this repo, you'll find my first larger SQL project!
   - Supporting views for business monitoring based on key retail metrics.
 - The project ensures referential integrity and a clean handling of status transitions for relevant data objects.
 - I am particularly proud of the core process chain for managing the key workflows, which is implemented using stored procedures and database triggers.
-- **For a quick overview:** BEST check out the documentation (`Projektdokumentation Patrick Priewe Kurs Relationale Datenbanken in SQL.pdf`).
+- **For a quick overview:** BEST check out the documentation (`Projektdokumentation birds paradise.pdf`) which you find at the same dir level as this README.
 
 > As of now, the documentation is only available in German – sorry for that!  
 
