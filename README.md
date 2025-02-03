@@ -1,20 +1,26 @@
 # bird_paradise
-This repo contains my first SQL project: A database with tables, relations, procedures, triggers and views to map the retail processes of a small (fictious) retail store.
+This repo contains my first SQL project: A database with tables, relations, procedures, triggers, and views to model the retail processes of a small (fictitious) retail store.
 
-Hi there and thanks for stopping by!
+## Hi there and thanks for stopping by!
 
-In this repo you find my first large(r) SQL-project! 
+In this repo, you'll find my first larger SQL project!  
 
-What will you find:
-  - Die Umsetzung meines selbst konzipierten, workflow-basierten Warenwirtschaftssystems in SQL!
-  - Für einen fiktiven Tierzubehörladen (einzelhandel) habe ich eine Datenbank mit zugehöriger Architektur eingerichtet, die folgendes beinhaltet:
-      - eine relationale datenbankstruktur für die abbildung von kunden, produkten, bestellungen, rechnungen, etc. - angelehnt an meine (kurze) berufserfahrung mit warenwirtschaftssystemen des einzelhandels
-      - eine business logik für die Anlage von bestellungen und rechnungen
-        - automatische lagerbestandsüberprüfung und rechnungsanlage für eingehende bestellungen
-        - status- und bearbeitungslogik fpr für abgelehnte (wartende) bestellungen aufgrund von lager-engpässen
-        - unterstützende workflows für die abwicklung offener und bausierter bestellungen
-      - unterstützende views für betriebswirtschaftliches monitoring anhand von kenngrößen des einzelhandels
-  - dabei wurde auf die referentielle integrität der daten und ein sauberes handling von statusübergängen der relevanten datenobjekte geachtet
-  - besonders stolz bin ich auf die zentrale prozesskette zur abwicklung der kernworkflows, die mithilfe von prozeduren und datenbanktriggern umgesetzt wurde
-  - für einen schnellsten Überblick: Schaut euch die Dokumentation an (
-As at the current point in time,
+### What will you find?
+- The implementation of my self-designed, workflow-based ERP for retail in SQL!
+- I have set up a database and its architecture for a fictitious pet supply store (retail), which includes:
+  - A relational database structure for mapping customers, products, orders, invoices, etc., inspired by my (short) professional experience with retail ERP.
+  - Business logic for handling orders and invoices:
+    - Automatic stock level verification and invoice creation for incoming orders.
+    - Status and processing logic for rejected (pending) orders due to stock shortages.
+    - Supporting workflows for processing open and completed orders.
+  - Supporting views for business monitoring based on key retail metrics.
+- The project ensures referential integrity and a clean handling of status transitions for relevant data objects.
+- I am particularly proud of the core process chain for managing the key workflows, which is implemented using stored procedures and database triggers.
+- **For a quick overview:** BEST check out the documentation (`Projektdokumentation Patrick Priewe Kurs Relationale Datenbanken in SQL.pdf`).
+
+> As of now, the documentation is only available in German – sorry for that!  
+
+Feel free to contact me anytime if you have questions, ideas for improvement, or feedback. I appreciate any input!  
+
+**Best,  
+Patrick**  
